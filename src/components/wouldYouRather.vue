@@ -2,8 +2,7 @@
   <div class="wyr">
    <h2>Would you rather</h2>
     <h3>{{question}}</h3>
-<!--    <div v-for="question in questions"-->
-<!--    v-bind:question="question" v-bind:key="question"></div>-->
+
     <input type="radio" v-model="choice"
            v-bind:value="wyrAnswer1"
            v-on:change="choiceMade">
@@ -51,13 +50,16 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+
 }
 a {
   color: #42b983;
 }
 .wyr{
   border: 2px black solid;
-  background: #42b983;
+  background: #95e8a0;
   margin: 10px;
 }
+
+
 </style>

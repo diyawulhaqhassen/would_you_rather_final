@@ -9,7 +9,7 @@
         v-bind:wyrAnswer2="question.wyrAnswer2"
         v-on:answer-changed="answerChanged"></would-you-rather>
     <div> You would Rather...
-      <ul class='userChoice'>
+      <ul class='userChoice' >
         <li v-for="answer in userSelectionMessage"
         v-bind:key="answer">
           {{answer}}
@@ -82,7 +82,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  background: darkmagenta;
+  background: #ffffff;
   border: black solid 2px;
+
 }
 </style>
